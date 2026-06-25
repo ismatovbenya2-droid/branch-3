@@ -1,11 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalyst Analytics</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="bg-[#030303] text-white overflow-x-hidden">
+    <div class="relative min-h-screen">
+      <div
+        class="pointer-events-none absolute right-[-120px] top-[120px] h-[420px] w-[420px] rounded-full bg-[#0A84FF]/20 blur-[130px]"
+      ></div>
+      <div
+        class="pointer-events-none absolute left-0 top-[90px] hidden h-[420px] w-full opacity-20 lg:block"
+        style="
+          background-image: radial-gradient(#1f1f1f 1px, transparent 1px);
+          background-size: 26px 26px;
+        "
+      ></div>
+      <header class="relative z-20">
+        <div
+          class="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-6 lg:px-6"
+        >
+          <a href="index.html" class="shrink-0">
+            <img
+              src="./src/img/Logo (8).png"
+              alt="Catalyst Analytics"
+              class="h-auto w-[120px] lg:w-[140px]"
+            />
+          </a>
+          <nav class="hidden lg:block">
+            <ul class="flex items-center gap-8 text-[14px] text-white/80">
+              <li><a class="transition hover:text-white" href="index.html">Home</a></li>
+              <li><a class="transition hover:text-white" href="page2.html">Services</a></li>
+              <li><a class="transition hover:text-white" href="page3.html">Careers</a></li>
+              <li><a class="transition hover:text-white" href="page4.html">Career Details</a></li>
+              <li><a class="transition hover:text-white" href="page5.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <button
+            class="rounded-xl bg-[#0A84FF] px-5 py-3 text-sm font-medium transition hover:bg-[#0c76e0] lg:px-7"
+          >
+            Contact Us
+          </button>
+        </div>
+      </header>
+      
+      
+    </div>
+  </body>
 </html>
